@@ -5,7 +5,7 @@ plot_hist_ingreso <- function(df, outpath) {
   hist(df$ingreso,
        main = "Histograma de ingreso",
        xlab = "Ingreso",
-       col = "gray")
+       col = "red")
   dev.off()
 }
 
@@ -15,6 +15,6 @@ plot_box_ingreso_por_grupo <- function(df, outpath) {
           main = "Ingreso por grupo",
           xlab = "Grupo",
           ylab = "Ingreso",
-          col = "gray")
+          col = "red")
   dev.off()
 }
