@@ -1,0 +1,33 @@
+# =========================
+# R
+# =========================
+
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio files
+.Rproj.user/
+
+# Package build
+*.tar.gz
+*.Rcheck/
+
+# Knitr cache
+*_cache/
+*_files/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+
+# Data outputs
+data/processed/
+results/
+
+# Temporary files
+*.tmp
+*.bak
