@@ -1,6 +1,6 @@
-# scripts/04_visualizar.R
+# scripts/05_visualizar.R
 
-source("src/plot_results.R")
+source("src/graficar.R")
 
 # Leer datos procesados
 proc <- read.csv("data/processed/datos_procesados.csv")
