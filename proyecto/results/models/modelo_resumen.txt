@@ -1,0 +1,21 @@
+
+Call:
+glm(formula = desempleado ~ edad + ingreso, family = binomial, 
+    data = datos)
+
+Coefficients:
+              Estimate Std. Error z value Pr(>|z|)   
+(Intercept) -9.051e-01  2.942e-01  -3.077  0.00209 **
+edad         2.032e-03  5.174e-03   0.393  0.69460   
+ingreso     -2.183e-06  8.341e-06  -0.262  0.79357   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 1213.1  on 999  degrees of freedom
+Residual deviance: 1212.9  on 997  degrees of freedom
+AIC: 1218.9
+
+Number of Fisher Scoring iterations: 4
+

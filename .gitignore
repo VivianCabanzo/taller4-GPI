@@ -24,9 +24,7 @@ Thumbs.db
 # Editor
 .vscode/
 
-# Data outputs
-data/processed/
-results/
+
 
 # Temporary files
 *.tmp
