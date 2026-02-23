@@ -6,6 +6,14 @@ El proyecto incluye la planificación, control de versiones, y documentación de
 
 ---
 
+## Autora
+
+Vivian Cabanzo
+
+Curso: Gestión de Proyectos de Investigación y Ciencia Abierta
+
+Universidad de los Andes
+
 ## Estructura del repositorio
 
 taller4-GPI/
@@ -23,4 +31,13 @@ taller4-GPI/
 │
 ├── LICENSE # Licencia MIT
 └── README.md # Documentación del proyecto
+
+## Reproducibilidad
+
+Este proyecto utiliza `renv` para gestionar las dependencias en R.
+
+Para restaurar el entorno:
+
+```r
+renv::restore()
 
