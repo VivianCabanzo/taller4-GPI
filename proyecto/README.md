@@ -1,13 +1,59 @@
-# Proyecto Taller 4
+# Proyecto de Análisis y Modelado de Datos
 
-Estructura reproducible para análisis y simulación.
+Este proyecto implementa un flujo de trabajo reproducible para la generación, análisis y modelado de datos sintéticos,con el fin de aprender a manejar ramas en Github.
 
-## Estructura
-
-- data/: datos crudos y procesados
-- src/: funciones
-- scripts/: ejecución principal
-- results/: resultados
+---
 
 ## Autor
-Nombre del estudiante
+
+Nombre: Vivian Cabanzo
+Curso: Gestión de Proyectos de Investigación y Ciencia Abierta
+
+
+---
+
+## Objetivo
+
+Desarrollar un pipeline reproducible que permita:
+
+- Generar datos sintéticos
+- Procesarlos y analizarlos
+- Aplicar modelos estadísticos
+- Facilitar la replicación del estudio
+- Crear diferentes ramas de trabajo
+- Aprender a manejar conflictos y errores
+- Recuperación de archivos
+
+---
+
+## Estructura del Proyecto
+
+
+proyecto/
+├── data/
+│   ├── raw/          # Datos sin procesar
+│   └── processed/    # Datos procesados
+├── src/              # Funciones y módulos
+├── scripts/          # Scripts ejecutables
+├── results/          # Resultados
+├── runall.ps1        # pipeline   
+└── README.md
+
+---
+##  Requisitos
+
+R >= 4.0
+
+Github
+
+---
+
+## Control de Versiones
+
+Se utilizan ramas para organizar el desarrollo:
+
+
+main:	rama principal
+analisis-exploratorio:	Análisis
+modelado:	Modelos
+
