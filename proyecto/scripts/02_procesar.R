@@ -32,4 +32,4 @@ write.csv(
   row.names = FALSE
 )
 
-cat("OK: datos descargados desde Zenodo, procesados y guardados en data/processed/\n")get
+cat("OK: datos descargados desde Zenodo, procesados y guardados en data/processed/\n")
